@@ -12,7 +12,7 @@ jobs:
       uses: cedrickring/golang-action/go1.15@1.6.0
     - name: Run go code
       run: |
-        go run cmd/demo.go
+        go run example/demo.go
   runLinux:
     runs-on: ubuntu-latest
     steps:
@@ -24,4 +24,4 @@ jobs:
       uses: cedrickring/golang-action/go1.15@1.6.0
     - name: Run go code
       run: |
-        go run cmd/demo.go
+        go run example/demo.go
