@@ -2,8 +2,17 @@
 
 Clear terminal screen
 
-## Usage
+![](media/action.gif)
 
+
+## Installation
+```bash
+go get github.com/xjh22222228/clear
+```
+
+
+
+## Usage
 ```go
 package main
 
@@ -13,18 +22,11 @@ import (
 )
 
 func main()  {
-	fmt.Println("Clear Demo")
+	fmt.Println("Please support us")
 	clear.Clear()
 }
 ```
 
 
-
-
-
-
-
 ## License
-
-MIT
-
+[MIT](./LICENSE)
