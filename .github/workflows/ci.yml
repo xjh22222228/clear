@@ -1,19 +1,7 @@
-name: Run Golang
+name: Run Code
 on: [push]
 jobs:
-  runWindows:
-    runs-on: windows-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-      with:
-        persist-credentials: false
-    - name: Use Go 1.15
-      uses: cedrickring/golang-action/go1.15@1.6.0
-    - name: Run go code
-      run: |
-        go run example/demo.go
-  runLinux:
+  Run:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
